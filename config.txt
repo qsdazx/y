@@ -1,0 +1,14 @@
+const config = {
+    // 公众号配置
+    app_id: "wx525fb38bf90ed7d7", // 公众号appId
+    app_secret: "46218f62c6ce54cd1b7d8bf540cb9105", // 公众号appSecret
+    user: "oVBqO6YH9Q39HcsiKmhD5483s0xc","oVBqO6aJB7p_Gmb2hd1sEQkNN6yo", // 接收公众号消息的微信号
+    template_id: "5ljusitpor0acoqSvjML36ZlOX9ff0JvOvI52Gi6hpU", // 模板 id
+    // 信息配置
+    city: "北海", // 所在城市
+    birthday1: { "name": "臭屁", "birthday": "2000-11-12" }, // 宝贝生日（阳历），姓名和生日，生日格式为"年-月-日"
+    birthday2: { "name": "大哥", "birthday": "2004-08-11" }, // 我的生日，同上
+    love_date: "2022-8-18", // 在一起的日期，年月日以"-"分隔
+    loveStr: "跌倒又爬起，山岭静悄悄", // 如果填写,则以填写内容为主，如果不填写则自动获取土味情话语句
+}
+module.exports = config
